@@ -1,4 +1,4 @@
-# AsyncAPI's Design System
+[![AsyncAPI Design System](/assets/github-repobanner-designsystem.png)](https://www.asyncapi.com)
 
 ## Environment Setup
 
