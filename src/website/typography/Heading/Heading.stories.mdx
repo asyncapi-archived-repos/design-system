@@ -1,0 +1,15 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs'
+import Heading from './Heading'
+import * as stories from './Heading.stories.js'
+
+<Meta title="Website/Components/Typography/Heading" component={Heading} />
+
+# Heading
+
+**DRAFT:** This is just an example component for now to help us get an idea of how we can build components in Storybook. This is not an official component.
+
+<Canvas>
+    <Story story={stories.ExtraLarge} />
+</Canvas>
+
+<ArgsTable of={Heading} />
