@@ -1,11 +1,9 @@
-# Environment Setup
-
 [![AsyncAPI Design System](/assets/github-repobanner-designsystem.png)](https://www.asyncapi.com)
 
----
+# :deciduous_tree:Environment Setup
 
 
-### How to setup storybook locally
+### :joystick:How to setup storybook locally
 
 - Before starting the Storybook environment locally, install all the required dependencies. Run the command below to install the dependencies:
 
