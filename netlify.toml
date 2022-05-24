@@ -1,0 +1,4 @@
+[build]
+  command = "npm run build && npm run build-storybook && npm run export"
+  functions = "netlify/functions"
+  publish = "out"
