@@ -1,8 +1,7 @@
 [![AsyncAPI Design System](/assets/github-repobanner-designsystem.png)](https://www.asyncapi.com)
 ---
+
 # # :deciduous_tree:Environment Setup
-
-
 
 ### :joystick:How to setup storybook locally
 
