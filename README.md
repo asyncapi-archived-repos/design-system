@@ -10,10 +10,10 @@
   npm install
   ```
 
-- Now that you've installed all of the 'node modules' in your project, you can launch the Storybook environment. To get started, type the command below:
+- Now that you've installed all of the `node modules` in your project, you can launch the Storybook environment. To get started, type the command below:
 
   ```cmd
   npm run storybook
   ```
 
-- By default, this will launch your local Storybook environment on port '6006'.
+- By default, this will launch your local Storybook environment on port `6006`.
