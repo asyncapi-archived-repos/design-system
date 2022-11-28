@@ -1,19 +1,19 @@
 [![AsyncAPI Design System](/assets/github-repobanner-designsystem.png)](https://www.asyncapi.com)
 
-## Environment Setup
+# :deciduous_tree: Environment Setup
 
-### How to setup storybook locally
+### :joystick: How to setup storybook locally
 
-- Before starting the Storybook environment locally, install all the required dependencies. Run the command below to install the dependencies: 
+- Install all essential prerequisites before launching the Storybook environment locally. To install the dependencies, run the command below:
 
-```cmd
-npm install --save-dev
-```
+  ```cmd
+  npm install
+  ```
 
-- Now, as you have all the `node_modules` installed in your project, you can start the Storybook environment. Run the command below to start it: 
+- Now that you've installed all of the `node modules` in your project, you can launch the Storybook environment. To get started, type the command below:
 
-```cmd
-npm run storybook
-```
+  ```cmd
+  npm run storybook
+  ```
 
-- This will start your local Storybook environment on port `6006` by default.
+- By default, this will launch your local Storybook environment on port `6006`.
