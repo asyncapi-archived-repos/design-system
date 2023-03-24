@@ -10,5 +10,5 @@ export const parameters = {
   },
   storySort: {
     method: 'alphabetical'
-  }
+  },
 }

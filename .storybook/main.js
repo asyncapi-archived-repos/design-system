@@ -4,8 +4,15 @@ module.exports = {
     "@storybook/addon-links", 
     "@storybook/addon-essentials", 
     "@storybook/addon-interactions",
-    "@storybook/addon-docs",
-    "@storybook/preset-create-react-app",
+    // "@storybook/addon-docs",
+    {
+      name: '@storybook/addon-postcss',
+      options: {
+        postcssLoaderOptions: {
+          implementation: require('postcss'),
+        },
+      },
+    },
   ],
   "framework": "@storybook/react",
   core: {
