@@ -1,3 +1,5 @@
+/** @type {import('tailwindcss').Config} */
+
 const colorPrimary = {
   100: '#F4EFFC',
   200: '#E0D1FC',
@@ -57,15 +59,20 @@ const colorGray = {
 
 
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    './public/index.html',
+  ],
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
-    colors: {
-      primary: colorPrimary,
-      secondary: colorSecondary, 
-      pink: colorPink,
-      yellow: colorYellow,
-      gray: colorGray,
+    extend: {
+      colors: {
+        primary: colorPrimary,
+        secondary: colorSecondary, 
+        pink: colorPink,
+        yellow: colorYellow,
+        gray: colorGray,
+      },
     },
     fontFamily: {
       'sans': ['Inter', 'sans-serif'],
